@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    border: 0px solid red;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #646865;
+    font-size: 24px;
+}
+
+
+
+.nav {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #dee7e0;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.nav-item a:hover {
+    color: #e7d152;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo {
+    width: 200px;
+    height: auto;
+}
+
+.section {
+    width: 60%;
+    
+  }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.file {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.github_img {
+    height: 100px;
+    width: auto;
+}
+
+.rsschool_img {
+    height: 80px;
+    width: auto;
+}
+
+.year {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black;
+}

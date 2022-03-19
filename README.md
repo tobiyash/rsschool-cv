@@ -1,1 +1,1 @@
-#https://tobiyash.github.io/rsschool-cv/cv
+# https://tobiyash.github.io/rsschool-cv/
