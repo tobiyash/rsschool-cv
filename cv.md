@@ -48,4 +48,5 @@ function strCount(obj){
 
 ***
 ## English
+b1 level according to [epam](https://examinator.epam.com/)
 
